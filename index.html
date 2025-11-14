@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Royal Elegance Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-primary: #0A192F; /* Navy Blue */
+        --bg-secondary: #172A45; /* Lighter Navy */
+        --text-primary: #CCD6F6; /* Light Slate / Off-white */
+        --text-secondary: #8892B0; /* Slate Grey */
+        --accent-gold: #D4AF37;
+        --accent-soft-gold: #F4E29D;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--bg-primary);
+        color: var(--text-primary);
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Cinzel', serif;
+      }
+      .gold-gradient-text {
+        background: linear-gradient(145deg, var(--accent-soft-gold), var(--accent-gold));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      .royal-glow {
+        box-shadow: 0 0 20px 5px rgba(212, 175, 55, 0.2), 0 0 35px 10px rgba(212, 175, 55, 0.15);
+      }
+       /* For scrollspy active link */
+      .active-link {
+        color: var(--accent-gold) !important;
+        transform: scale(1.1);
+        transition: color 0.3s ease, transform 0.3s ease;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
