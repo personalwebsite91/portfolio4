@@ -31,7 +31,7 @@ const Loader: React.FC = () => {
         </svg>
       </div>
        <p className="mt-4 text-lg font-serif tracking-widest text-[var(--accent-gold)] animate-pulse">
-        CRAFTING ELEGANCE
+        Panduru Somu
       </p>
     </div>
   );

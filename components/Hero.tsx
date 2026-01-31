@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
                 <AnimatedSection>
                     <div className="relative inline-block mb-8">
                         <img
-                            src="https://picsum.photos/seed/portrait/200/200"
+                            src= "https://res.cloudinary.com/dn4jcnne6/image/upload/v1769855554/ChatGPT_Image_Jan_31_2026_03_55_52_PM_bmxgyf.png"
                             alt="Royal Portrait"
                             className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-[var(--accent-gold)] p-1 royal-glow"
                         />
@@ -46,12 +46,12 @@ const Hero: React.FC = () => {
                 </AnimatedSection>
                 <AnimatedSection>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 gold-gradient-text">
-                        Evelyn Clairmont
+                        Panduru Somu
                     </h1>
                 </AnimatedSection>
                 <AnimatedSection>
                     <p className="text-lg md:text-2xl text-[var(--text-secondary)] mb-8 max-w-3xl mx-auto">
-                        Crafting Digital Experiences with Royal Elegance
+                        Crafting Digital Experiences with Safety and technology.
                     </p>
                 </AnimatedSection>
                 <AnimatedSection>
@@ -59,9 +59,7 @@ const Hero: React.FC = () => {
                         <a href="#projects" className="px-8 py-3 bg-[var(--accent-gold)] text-[var(--bg-primary)] font-bold rounded-md hover:bg-[var(--accent-soft-gold)] transition-all duration-300 transform hover:scale-105 ease-in-out">
                             View Projects
                         </a>
-                        <a href="/resume.pdf" download className="px-8 py-3 border-2 border-[var(--accent-gold)] text-[var(--accent-gold)] font-bold rounded-md hover:bg-[var(--accent-gold)]/10 transition-all duration-300 transform hover:scale-105 ease-in-out">
-                            Download CV
-                        </a>
+                        
                     </div>
                 </AnimatedSection>
             </div>

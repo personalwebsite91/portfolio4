@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
             <div className="container mx-auto px-6 py-8">
                 <div className="flex flex-col items-center text-center">
                     <a href="#home" className="text-2xl font-bold font-serif gold-gradient-text mb-4">
-                       Evelyn Clairmont
+                       Founder, shaktiind
                     </a>
                     <div className="flex flex-wrap justify-center space-x-6 mb-6">
                         {navLinks.map(link => (
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                         ))}
                     </div>
                      <p className="text-sm text-gray-500">
-                        &copy; {new Date().getFullYear()} Evelyn Clairmont. All Rights Reserved.
+                        &copy; {new Date().getFullYear()} Panduru somu. All Rights Reserved.
                     </p>
                 </div>
             </div>

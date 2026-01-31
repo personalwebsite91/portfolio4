@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, navLinks }) => {
             <nav className="container mx-auto px-6 py-4">
                 <div className="flex items-center justify-between">
                     <a href="#home" className="text-xl font-bold font-serif gold-gradient-text">
-                        E.
+                     Somu
                     </a>
                     <div className="hidden md:flex items-center space-x-1">
                         {navLinks.map(link => <NavLink key={link} section={link} />)}
